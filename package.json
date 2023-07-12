@@ -1,11 +1,19 @@
 {
-  "name": "m-cdn",
-  "version": "1.0.6",
-  "description": "",
+  "name": "pi-cdn",
+  "version": "1.0.0",
+  "description": "静态资源包",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "maazs",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whbai/cdn.git"
+  },
+  "author": "yuuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whbai/cdn/issues"
+  },
+  "homepage": "https://github.com/whbai/cdn#readme"
 }
