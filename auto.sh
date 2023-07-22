@@ -3,7 +3,9 @@ git config --global core.autocrlf false
 git config --global http.sslVerify false
 # 将更改提交
 git add .
-git commit -m "npm publish"
+printf "您的commit的说明："
+read commit
+git commit -m "${commit}"
 # 更新package版本号
 npm version patch
 # 推送至github触发action
