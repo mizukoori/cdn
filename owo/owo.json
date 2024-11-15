@@ -553,6 +553,219 @@
             }
         ]
     },
+    "明风": {
+        "type": "image",
+        "container": [
+            {
+                "text": "mingfeng-0",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/0.webp'>"
+            },
+            {
+                "text": "mingfeng-1",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/1.webp'>"
+            },
+            {
+                "text": "mingfeng-2",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/2.webp'>"
+            },
+            {
+                "text": "mingfeng-3",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/3.webp'>"
+            },
+            {
+                "text": "mingfeng-4",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/4.webp'>"
+            },
+            {
+                "text": "mingfeng-5",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/5.webp'>"
+            },
+            {
+                "text": "mingfeng-6",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/6.webp'>"
+            },
+            {
+                "text": "mingfeng-7",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/7.webp'>"
+            },
+            {
+                "text": "mingfeng-8",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/8.webp'>"
+            },
+            {
+                "text": "mingfeng-9",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/9.webp'>"
+            },
+            {
+                "text": "mingfeng-10",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/10.webp'>"
+            },
+            {
+                "text": "mingfeng-11",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/11.webp'>"
+            },
+            {
+                "text": "mingfeng-12",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/12.webp'>"
+            },
+            {
+                "text": "mingfeng-13",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/13.webp'>"
+            },
+            {
+                "text": "mingfeng-14",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/14.webp'>"
+            },
+            {
+                "text": "mingfeng-15",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/15.webp'>"
+            },
+            {
+                "text": "mingfeng-16",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/16.webp'>"
+            },
+            {
+                "text": "mingfeng-17",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/17.webp'>"
+            },
+            {
+                "text": "mingfeng-18",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/18.webp'>"
+            },
+            {
+                "text": "mingfeng-19",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/19.webp'>"
+            },
+            {
+                "text": "mingfeng-20",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/20.webp'>"
+            },
+            {
+                "text": "mingfeng-21",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/21.webp'>"
+            },
+            {
+                "text": "mingfeng-22",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/22.webp'>"
+            },
+            {
+                "text": "mingfeng-23",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/23.webp'>"
+            },
+            {
+                "text": "mingfeng-24",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/24.webp'>"
+            },
+            {
+                "text": "mingfeng-25",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/25.webp'>"
+            },
+            {
+                "text": "mingfeng-26",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/26.webp'>"
+            },
+            {
+                "text": "mingfeng-27",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/27.webp'>"
+            },
+            {
+                "text": "mingfeng-28",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/28.webp'>"
+            },
+            {
+                "text": "mingfeng-29",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/29.webp'>"
+            },
+            {
+                "text": "mingfeng-30",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/30.webp'>"
+            },
+            {
+                "text": "mingfeng-31",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/31.webp'>"
+            },
+            {
+                "text": "mingfeng-32",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/32.webp'>"
+            },
+            {
+                "text": "mingfeng-33",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/33.webp'>"
+            },
+            {
+                "text": "mingfeng-34",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/34.webp'>"
+            },
+            {
+                "text": "mingfeng-35",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/35.webp'>"
+            },
+            {
+                "text": "mingfeng-36",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/36.webp'>"
+            },
+            {
+                "text": "mingfeng-37",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/37.webp'>"
+            },
+            {
+                "text": "mingfeng-38",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/38.webp'>"
+            },
+            {
+                "text": "mingfeng-39",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/39.webp'>"
+            },
+            {
+                "text": "mingfeng-40",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/40.webp'>"
+            },
+            {
+                "text": "mingfeng-41",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/41.webp'>"
+            },
+            {
+                "text": "mingfeng-42",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/42.webp'>"
+            },
+            {
+                "text": "mingfeng-43",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/43.webp'>"
+            },
+            {
+                "text": "mingfeng-44",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/44.webp'>"
+            },
+            {
+                "text": "mingfeng-45",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/45.webp'>"
+            },
+            {
+                "text": "mingfeng-46",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/46.webp'>"
+            },
+            {
+                "text": "mingfeng-47",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/47.webp'>"
+            },
+            {
+                "text": "mingfeng-48",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/48.webp'>"
+            },
+            {
+                "text": "mingfeng-49",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/49.webp'>"
+            },
+            {
+                "text": "mingfeng-50",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/50.webp'>"
+            },
+            {
+                "text": "mingfeng-51",
+                "icon": "<img src='https://cdn.yuuu.org/owo/mingfeng/51.webp'>"
+            }
+        ]
+    },
     "Sweetie_Bunny": {
     "type": "image",
     "container": [
@@ -1281,148 +1494,6 @@
             {
                 "text": "bilibili2233-15",
                 "icon": "<img src='https://cdn.yuuu.org/owo/bilibili2233/9.png'>"
-            }
-        ]
-    },
-    "一姬": {
-        "type": "image",
-        "container": [
-            {
-                "text": "Ichihime-0",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/0.png'>"
-            },
-            {
-                "text": "Ichihime-1",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/1.png'>"
-            },
-            {
-                "text": "Ichihime-2",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/2.png'>"
-            },
-            {
-                "text": "Ichihime-3",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/3.png'>"
-            },
-            {
-                "text": "Ichihime-4",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/4.png'>"
-            },
-            {
-                "text": "Ichihime-5",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/5.png'>"
-            },
-            {
-                "text": "Ichihime-6",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/6.png'>"
-            },
-            {
-                "text": "Ichihime-7",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/7.png'>"
-            },
-            {
-                "text": "Ichihime-8",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/8.png'>"
-            },
-            {
-                "text": "Ichihime-9",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/9.png'>"
-            },
-            {
-                "text": "Ichihime-10",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/10.png'>"
-            },
-            {
-                "text": "Ichihime-11",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/11.png'>"
-            },
-            {
-                "text": "Ichihime-12",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/12.png'>"
-            },
-            {
-                "text": "Ichihime-13",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/13.png'>"
-            },
-            {
-                "text": "Ichihime-14",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/14.png'>"
-            },
-            {
-                "text": "Ichihime-15",
-                "icon": "<img src='https://cdn.yuuu.org/owo/Ichihime/15.png'>"
-            }
-        ]
-    },
-    "八木唯": {
-        "type": "image",
-        "container": [
-            {
-                "text": "yui-0",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/0.png'>"
-            },
-            {
-                "text": "yui-1",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/1.png'>"
-            },
-            {
-                "text": "yui-2",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/2.png'>"
-            },
-            {
-                "text": "yui-3",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/3.png'>"
-            },
-            {
-                "text": "yui-4",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/4.png'>"
-            },
-            {
-                "text": "yui-5",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/5.png'>"
-            },
-            {
-                "text": "yui-6",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/6.png'>"
-            },
-            {
-                "text": "yui-7",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/7.png'>"
-            },
-            {
-                "text": "yui-8",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/8.png'>"
-            },
-            {
-                "text": "yui-9",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/9.png'>"
-            },
-            {
-                "text": "yui-10",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/10.png'>"
-            },
-            {
-                "text": "yui-11",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/11.png'>"
-            },
-            {
-                "text": "yui-12",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/12.png'>"
-            },
-            {
-                "text": "yui-13",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/13.png'>"
-            },
-            {
-                "text": "yui-14",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/14.png'>"
-            },
-            {
-                "text": "yui-15",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/15.png'>"
-            },
-            {
-                "text": "yui-16",
-                "icon": "<img src='https://cdn.yuuu.org/owo/yui/16.png'>"
             }
         ]
     }
