@@ -1,6 +1,6 @@
 {
   "name": "pi-cdn",
-  "version": "1.0.35",
+  "version": "1.0.36",
   "description": "静态资源包",
   "main": "index.js",
   "scripts": {
