@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/mizukoori/cdn#readme",
   "devDependencies": {
-    "image-size": "^2.0.2"
+    "image-size": "^1.1.1"
   }
 }
