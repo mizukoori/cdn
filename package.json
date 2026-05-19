@@ -4,16 +4,20 @@
   "description": "静态资源包",
   "main": "index.js",
   "scripts": {
+    "build": "node generate-meta.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whbai/cdn.git"
+    "url": "git+https://github.com/mizukoori/cdn.git"
   },
   "author": "yuuu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/whbai/cdn/issues"
+    "url": "https://github.com/mizukoori/cdn/issues"
   },
-  "homepage": "https://github.com/whbai/cdn#readme"
+  "homepage": "https://github.com/mizukoori/cdn#readme",
+  "devDependencies": {
+    "image-size": "^2.0.2"
+  }
 }
