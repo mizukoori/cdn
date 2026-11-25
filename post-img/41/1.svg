@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 398" width="100%" role="img">
+<title>满雷规则与零雷规则</title>
+<desc>两个 3×3 邻域对照：数字 3 周围有 3 格未开且还剩 3 颗雷，所以全是雷；数字 2 周围有 3 格未开但已定 2 颗雷，待定为 0，所以全安全。</desc>
+<rect width="680" height="398" rx="12" fill="#f8f7f3"/>
+<g font-family="ui-sans-serif, system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif">
+
+<text x="36" y="44" font-size="15" font-weight="500" fill="#1f1f1d">满雷规则</text>
+<text x="118" y="44" font-size="11.5" fill="#8a8880">all-mines rule</text>
+
+<rect x="37.5" y="61.5" width="31" height="31" rx="4" fill="#fff3d6" stroke="#e8b64c" stroke-width="0.8"/>
+<text x="53" y="77" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#9a6a00">?</text>
+<rect x="71.5" y="61.5" width="31" height="31" rx="4" fill="#fff3d6" stroke="#e8b64c" stroke-width="0.8"/>
+<text x="87" y="77" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#9a6a00">?</text>
+<rect x="105.5" y="61.5" width="31" height="31" rx="4" fill="#fff3d6" stroke="#e8b64c" stroke-width="0.8"/>
+<text x="121" y="77" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#9a6a00">?</text>
+<rect x="37.5" y="95.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="71.5" y="95.5" width="31" height="31" rx="4" fill="#ffffff" stroke="#c9c6bf" stroke-width="0.8"/>
+<text x="87" y="111" text-anchor="middle" dominant-baseline="central" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#2b2b28">3</text>
+<rect x="105.5" y="95.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="37.5" y="129.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="71.5" y="129.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="105.5" y="129.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<text x="87" y="180" text-anchor="middle" font-size="11" fill="#8a8880">推之前</text>
+
+<path d="M148 111 L192 111" fill="none" stroke="#b8b5ad" stroke-width="1.2" marker-end="url(#ar)"/>
+
+<rect x="205.5" y="61.5" width="31" height="31" rx="4" fill="#fde3e3" stroke="#e07070" stroke-width="0.8"/>
+<text x="221" y="77" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#b32d2d">■</text>
+<rect x="239.5" y="61.5" width="31" height="31" rx="4" fill="#fde3e3" stroke="#e07070" stroke-width="0.8"/>
+<text x="255" y="77" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#b32d2d">■</text>
+<rect x="273.5" y="61.5" width="31" height="31" rx="4" fill="#fde3e3" stroke="#e07070" stroke-width="0.8"/>
+<text x="289" y="77" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#b32d2d">■</text>
+<rect x="205.5" y="95.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="239.5" y="95.5" width="31" height="31" rx="4" fill="#ffffff" stroke="#c9c6bf" stroke-width="0.8"/>
+<text x="255" y="111" text-anchor="middle" dominant-baseline="central" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#2b2b28">3</text>
+<rect x="273.5" y="95.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="205.5" y="129.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="239.5" y="129.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="273.5" y="129.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<text x="255" y="180" text-anchor="middle" font-size="11" fill="#8a8880">推之后</text>
+
+<text x="316" y="78" font-size="13" fill="#4a4a46">① 数未开格：<tspan font-weight="500" fill="#1f1f1d">3 格</tspan></text>
+<text x="316" y="104" font-size="13" fill="#4a4a46">② 待定雷数：3 − 0 = <tspan font-weight="500" fill="#1f1f1d">3 颗</tspan></text>
+<text x="316" y="132" font-size="13.5" font-weight="500" fill="#b32d2d">③ 3 = 3 → 这三格全是雷</text>
+<text x="316" y="156" font-size="11.5" fill="#8a8880">雷不能点，但必须记进内存：邻居的待定雷数各减 1</text>
+
+<line x1="36" y1="196" x2="644" y2="196" stroke="#e2dfd8" stroke-width="1"/>
+
+<text x="36" y="222" font-size="15" font-weight="500" fill="#1f1f1d">零雷规则</text>
+<text x="118" y="222" font-size="11.5" fill="#8a8880">all-safe rule</text>
+
+<rect x="37.5" y="239.5" width="31" height="31" rx="4" fill="#fff3d6" stroke="#e8b64c" stroke-width="0.8"/>
+<text x="53" y="255" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#9a6a00">?</text>
+<rect x="71.5" y="239.5" width="31" height="31" rx="4" fill="#fff3d6" stroke="#e8b64c" stroke-width="0.8"/>
+<text x="87" y="255" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#9a6a00">?</text>
+<rect x="105.5" y="239.5" width="31" height="31" rx="4" fill="#fff3d6" stroke="#e8b64c" stroke-width="0.8"/>
+<text x="121" y="255" text-anchor="middle" dominant-baseline="central" font-size="14" fill="#9a6a00">?</text>
+<rect x="37.5" y="273.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="71.5" y="273.5" width="31" height="31" rx="4" fill="#ffffff" stroke="#c9c6bf" stroke-width="0.8"/>
+<text x="87" y="289" text-anchor="middle" dominant-baseline="central" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#2b2b28">2</text>
+<rect x="105.5" y="273.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="37.5" y="307.5" width="31" height="31" rx="4" fill="#fde3e3" stroke="#e07070" stroke-width="0.8"/>
+<text x="53" y="323" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#b32d2d">■</text>
+<rect x="71.5" y="307.5" width="31" height="31" rx="4" fill="#fde3e3" stroke="#e07070" stroke-width="0.8"/>
+<text x="87" y="323" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#b32d2d">■</text>
+<rect x="105.5" y="307.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<text x="87" y="358" text-anchor="middle" font-size="11" fill="#8a8880">推之前</text>
+
+<path d="M148 289 L192 289" fill="none" stroke="#b8b5ad" stroke-width="1.2" marker-end="url(#ar)"/>
+
+<rect x="205.5" y="239.5" width="31" height="31" rx="4" fill="#dcf5e8" stroke="#6cc39a" stroke-width="0.8"/>
+<text x="221" y="255" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#1a6b4d">✓</text>
+<rect x="239.5" y="239.5" width="31" height="31" rx="4" fill="#dcf5e8" stroke="#6cc39a" stroke-width="0.8"/>
+<text x="255" y="255" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#1a6b4d">✓</text>
+<rect x="273.5" y="239.5" width="31" height="31" rx="4" fill="#dcf5e8" stroke="#6cc39a" stroke-width="0.8"/>
+<text x="289" y="255" text-anchor="middle" dominant-baseline="central" font-size="13" fill="#1a6b4d">✓</text>
+<rect x="205.5" y="273.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="239.5" y="273.5" width="31" height="31" rx="4" fill="#ffffff" stroke="#c9c6bf" stroke-width="0.8"/>
+<text x="255" y="289" text-anchor="middle" dominant-baseline="central" font-family="ui-monospace, Menlo, monospace" font-size="16" fill="#2b2b28">2</text>
+<rect x="273.5" y="273.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<rect x="205.5" y="307.5" width="31" height="31" rx="4" fill="#fde3e3" stroke="#e07070" stroke-width="0.8"/>
+<text x="221" y="323" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#b32d2d">■</text>
+<rect x="239.5" y="307.5" width="31" height="31" rx="4" fill="#fde3e3" stroke="#e07070" stroke-width="0.8"/>
+<text x="255" y="323" text-anchor="middle" dominant-baseline="central" font-size="15" fill="#b32d2d">■</text>
+<rect x="273.5" y="307.5" width="31" height="31" rx="4" fill="#e9e7e2" stroke="#d5d2cb" stroke-width="0.8"/>
+<text x="255" y="358" text-anchor="middle" font-size="11" fill="#8a8880">推之后</text>
+
+<text x="316" y="256" font-size="13" fill="#4a4a46">① 数未开格：<tspan font-weight="500" fill="#1f1f1d">3 格</tspan>，已定 2 颗雷</text>
+<text x="316" y="282" font-size="13" fill="#4a4a46">② 待定雷数：2 − 2 = <tspan font-weight="500" fill="#1f1f1d">0</tspan></text>
+<text x="316" y="310" font-size="13.5" font-weight="500" fill="#1a6b4d">③ 0 颗雷要放 → 这三格全安全</text>
+<text x="316" y="334" font-size="11.5" fill="#8a8880">安全格能点。能推动局面的永远是安全格，不是雷</text>
+
+<text x="36" y="386" font-size="11" fill="#a8a59c">灰 = 已开、黄 = 未开、红 = 已确定是雷、绿 = 已确定安全</text>
+
+</g>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#b8b5ad" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+</svg>
